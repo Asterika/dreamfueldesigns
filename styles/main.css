@@ -12,7 +12,7 @@ body {
   color: grey;
   font-family: 'Raleway', sans-serif;
   margin: 0 auto;
-  margin-top: 3%;
+  margin-top: 3.5%;
 }
 .cover {
   object-fit: cover;
@@ -45,6 +45,7 @@ body {
 /* LINKS */
 li a {
   color: #303030;
+  padding-right: 30px;
   text-decoration: none;
 }
 ul:hover li a {
