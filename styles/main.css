@@ -1,0 +1,21 @@
+/* GENERAL */
+body {
+  background-color: ghostwhite;
+  color: grey;
+  margin: 0 auto;
+}
+
+.none {
+  list-style-type: none;
+}
+
+/* NAVIGATION */
+a {
+  text-decoration: none;
+}
+li {
+  display: inline;
+}
+
+/* MEDIA QUERIES */
+/* @media  */
