@@ -12,6 +12,7 @@ body {
   color: grey;
   font-family: 'Raleway', sans-serif;
   margin: 0 auto;
+  margin-top: 3%;
 }
 .cover {
   object-fit: cover;
@@ -30,6 +31,10 @@ body {
 }
 
 /* FONTS */
+.f12 {
+  font-size: 1.2rem;
+}
+
 .f15 {
   font-size: 1.5rem;
 }
@@ -51,6 +56,10 @@ ul li a:hover {
 
 
 /* NAVIGATION */
+.main-nav {
+  display: flex;
+  justify-content: flex-end;
+}
 
 /* SIZES */
 .h5 {
@@ -59,6 +68,10 @@ ul li a:hover {
 
 .h50 {
   height: 50%;
+}
+
+.h100 {
+  height: 100%;
 }
 
 .w100 {
