@@ -99,7 +99,7 @@
 }
 
 .thankyou-text {
-  left: 41.5%;
+  left: 42%;
   position: absolute;
   text-align: center;
   top: 12.5%;
@@ -131,13 +131,16 @@
     /* do not use percentages! */
     padding: 0 20px;
   }
-  nav ul{
+  nav ul {
     display: flex;
     justify-content: flex-end;
     list-style: none;
     margin: 4.5% 2.2%;
     margin-bottom: 1.5%;
     padding: 0;
+  }
+  nav ul li:first-child {
+    float: left;
   }
   /* this turns the links light grey when the active is hovered over */
   ul:hover li a {
