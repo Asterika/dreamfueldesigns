@@ -1,0 +1,273 @@
+/* STEP 2 - import fonts, set variable, set body properties */
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|IM+Fell+Great+Primer:400i|Raleway:300');
+
+/* GENERAL STYLES */
+  body {
+    background: ghostwhite;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    /* overflow-y: scroll; */
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    text-align: left;
+  }
+  h1, h3 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3rem;
+    /* margin-top: 3%; */
+    margin-bottom: 2%;
+    /* position: absolute; */
+    text-align: center;
+    /* z-index: 1; */
+  }
+  /* h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0%;
+  } */
+  hr {
+    width: 2%;
+  }
+
+
+/* FORMS */
+  .button-connect {
+    border: 2px inset #303030;
+    font-size: 1.2rem;
+    height: 40px;
+    width: 100px;
+  }
+  .info-field {
+    background-color: #303030;
+    color: white;
+    border: 1px solid #303030;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 436px;
+  }
+  input {
+    border-color: lightgrey;
+    font-size: 1rem;
+    height: 30px;
+    width: 450px;
+  }
+  .input-name {
+    margin-right: 12px;
+    width: 213px;
+  }
+  textarea {
+    border: 2px inset #303030;
+    border-color: lightgrey;
+    max-width: auto;
+  }
+
+/* IMAGES */
+.img-container {
+  /* background-image: url('images/coders_desk.jpg'); */
+  position: relative;
+  text-align: center;
+  /* z-index: -1; */
+}
+
+/* WELCOME PAGE */
+.welcome-text {
+  position: absolute;
+  top: 2%;
+  left: 6%;
+}
+
+.welcome-icon {
+  height: 290px;
+  position: absolute;
+  top: 50%;
+  left: 97%;
+  width: 290px;
+}
+
+.welcome-bubble-text {
+  position: absolute;
+  top: 39%;
+  left: 110%;
+}
+
+/* THANK YOU PAGE */
+.thankyou-img {
+  position: relative;
+}
+
+.thankyou-text {
+  left: 40.5%;
+  position: absolute;
+  text-align: center;
+  top: 12.5%;
+}
+
+
+/* STEP 3 - set up container with display flex */
+/* CONTAINERS */
+/* .container {
+  display: flex;
+  height: 100%;
+  margin: 2% 4%;
+  width: 96%;
+} */
+
+/* .contain {
+  object-fit: contain;
+} */
+
+/* STEP 5 - add nav + link properties */
+/* LINKS & NAV */
+  a {
+    color: #303030;
+    text-decoration: none;
+  }
+  li {
+    display: inline;
+    font-size: 1.2rem;
+    /* do not use percentages! */
+    padding: 0 20px;
+  }
+  nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 4.5% 2.2%;
+    margin-bottom: 1.5%;
+    padding: 0;
+  }
+  /* this turns the links light grey when the active is hovered over */
+  ul:hover li a {
+    color: 	#c0c0c0;
+  }
+  /* this keeps the link darker grey as the others fade */
+  ul li a:hover {
+    color: #333;
+  }
+
+/* FORMS */
+
+/* FONTS */
+
+/* GALLERY */
+.logo {
+  height: 100px;
+  margin: 15px;
+  padding: 2px;
+  width: 220px;
+  border: 1.2px solid grey;
+  border-radius: 2%;
+  /* height: 250px;
+  width: 250px; */
+  /* border-radius: 20%; */
+}
+.logo-small {
+  border: 1px solid grey;
+  height: 80px;
+  padding: 40px;
+  width: 200px;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.screenshot {
+  border: 1px solid grey;
+  height: 350px;
+  max-width: 500px;
+  width:100%;
+  /* width: 500px; */
+  /* margin: 15px;
+  padding: 20px; */
+  /* border: 2px solid grey;
+  border-radius: 4px; */
+}
+
+/* IMAGES */
+/* .img-main {
+  margin-left: 2%;
+  margin-right: 2%;
+} */
+
+/* SIZES */
+.h5 {
+height: 5%;
+}
+.h35 {
+height: 35%;
+}
+.h50 {
+height: 50vh;
+}
+.h80 {
+height: 80vh;
+}
+.h100 {
+height: 100%;
+}
+.w80 {
+width: 80%;
+}
+.w95 {
+width: 95%;
+}
+.w100 {
+width: 100%;
+}
+
+/* STEP 6 - add media query for mobile responsiveness */
+/* MEDIA QUERIES */
+@media only screen
+  and (min-width:350px)
+  and (max-width:667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .info-field {
+      border: 1px solid #303030;
+      border-radius: 20px;
+      max-width: 380px;
+    }
+    ul {
+      align-items: flex-end;
+      flex-direction: column;
+    }
+    /* Code Credit: The following block of code is courtesy Alex Gibson, https://www.webdesignerdepot.com/2013/03/how-to-make-your-contact-forms-mobile-friendly/ */
+    input[type=text], input[type=url], input[type=email], input[type=password], input[type=tel] {
+      -webkit-appearance: none; -moz-appearance: none;
+      display: block;
+      margin: 0;
+      width: 100%; height: 40px;
+      line-height: 40px; font-size: 17px;
+      border: 1px solid #bbb;
+    }
+    form {
+      /* height: auto; */
+      align-items: center;
+      /* margin: 0 20px; */
+      width: 100%;
+    }
+    textarea {
+      width: 99%;
+    }
+  }
+
+
+/* SIZE SPECS */
+/* .h80 {
+  height: 80vh;
+}
+.h60 {
+  height: 60vh;
+}
+
+.w95 {
+  width: 95%;
+}
+
+.w100 {
+  width: 100%;
+} */
