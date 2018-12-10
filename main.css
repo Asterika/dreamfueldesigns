@@ -82,14 +82,14 @@
 .welcome-icon {
   height: 290px;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 97%;
   width: 290px;
 }
 
 .welcome-bubble-text {
   position: absolute;
-  top: 39%;
+  top: 48%;
   left: 110%;
 }
 
@@ -268,14 +268,14 @@ width: 100%;
     .welcome-icon {
       height: 220px;
       position: absolute;
-      top: 86%;
+      top: 87%;
       left: 25%;
       width: 220px;
     }
 
     .welcome-bubble-text {
       position: absolute;
-      top: 86%;
+      top: 88%;
       left: 31%;
     }
   }
