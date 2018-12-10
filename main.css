@@ -140,7 +140,7 @@
     padding: 0;
   }
   nav ul li:first-child {
-    float: left;
+    margin-right: auto;
   }
   /* this turns the links light grey when the active is hovered over */
   ul:hover li a {
@@ -238,6 +238,7 @@ width: 100%;
       align-items: flex-end;
       flex-direction: column;
     }
+
     /* Code Credit: The following block of code is courtesy Alex Gibson, https://www.webdesignerdepot.com/2013/03/how-to-make-your-contact-forms-mobile-friendly/ */
     input[type=text], input[type=url], input[type=email], input[type=password], input[type=tel] {
       -webkit-appearance: none; -moz-appearance: none;
@@ -256,21 +257,25 @@ width: 100%;
     textarea {
       width: 99%;
     }
+    h1, h3 {
+      font-size: 2.4rem;
+    }
+    .welcome-text {
+      position: absolute;
+      top: -4%;
+      left: 6%;
+    }
+    .welcome-icon {
+      height: 220px;
+      position: absolute;
+      top: 86%;
+      left: 25%;
+      width: 220px;
+    }
+
+    .welcome-bubble-text {
+      position: absolute;
+      top: 86%;
+      left: 31%;
+    }
   }
-
-
-/* SIZE SPECS */
-/* .h80 {
-  height: 80vh;
-}
-.h60 {
-  height: 60vh;
-}
-
-.w95 {
-  width: 95%;
-}
-
-.w100 {
-  width: 100%;
-} */
