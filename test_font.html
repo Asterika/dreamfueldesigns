@@ -17,4 +17,20 @@
     var contactform =  document.getElementById('contactform');
     contactform.setAttribute('action', '//formspree.io/' + 'your' + '@' + 'email' + '.' + 'com');
 </script>
-  
+
+
+<form action="mailto:krystalmwilliams@gmail.com" method="POST">
+<legend>Name</legend>
+<input type="text" name="name" placeholder="First" class="input-name"></input>
+<input type="text" name="name" placeholder="Last" class="input-name"></input><br ><br >
+<legend>Email</legend>
+<input type="email" name="_replyto"><br ><br >
+<legend>Subject</legend>
+<input type="text" name="subject"/>
+<input type="hidden" name="_subject" value="Website contact" /><br ><br >
+<legend>Message</legend>
+<textarea name="message" rows="8" cols="80"></textarea><br ><br >
+<!-- <input type="text" name="_gotcha" style="display:none" />
+<input type="hidden" name="_next" value="//dreamfueldesign.com/thanks.html" /> -->
+<input class="button-connect" type="submit" value="Connect" style="cursor:pointer;">
+</form>

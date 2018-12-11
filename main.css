@@ -1,4 +1,3 @@
-/* STEP 2 - import fonts, set variable, set body properties */
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|IM+Fell+Great+Primer:400i|Raleway:300');
 
 /* GENERAL STYLES */
@@ -131,6 +130,14 @@
     /* do not use percentages! */
     padding: 0 20px;
   }
+  .li-logo {
+    font-family:'IM Fell Great Primer', serif;
+    font-size: 32px;
+    margin-top: -0.5%;
+  }
+  .anchor-logo {
+    margin-top: -5%;
+  }
   nav ul {
     display: flex;
     justify-content: flex-end;
@@ -198,7 +205,7 @@
 } */
 
 /* SIZES */
-.h5 {
+/* .h5 {
 height: 5%;
 }
 .h35 {
@@ -206,7 +213,7 @@ height: 35%;
 }
 .h50 {
 height: 50vh;
-}
+} */
 .h80 {
 height: 80vh;
 }
