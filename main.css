@@ -33,15 +33,65 @@
 
 
 /* FORMS */
-  .button-connect {
-    border: 2.5px inset #303030;
-    background-color: black;
-    color: white;
+  .button-connect, .button-resume, .button-projects {
+    border: 2.5px solid #3277b3;
+    background-color: ghostwhite;
+    border-radius: 5px;
+    color: #3277b3;
     cursor: pointer;
-    font-size: 1.2rem;
-    height: 40px;
-    width: 100px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.65rem;
+    font-weight: bold;
+    letter-spacing: 0.17rem;
+    height: 60px;
+    width: 120px;
   }
+  .button-connect:hover {
+    background-color: #3277b3;
+    border: 2.5px solid white;
+    border-radius: 8px;
+    color: white;
+  }
+
+
+
+  .button-resume {
+    border: 2.5px solid #2e37fe;
+    color: #2e37fe;
+    font-size: 1.75rem;
+  }
+  .button-resume a {
+    color: #2e37fe;
+  }
+  .button-resume:hover {
+    background-color: #2e37fe;
+    border: 2.5px solid white;
+    border-radius: 8px;
+    color: white;
+  }
+  .button-resume:hover a {
+    color: white;
+  }
+
+
+
+  .button-projects {
+    border: 2.5px solid #00a0c3;
+    color: #00a0c3;
+  }
+  .button-projects a {
+    color: #00a0c3;
+  }
+  .button-projects:hover {
+    background-color: #00a0c3;
+    border: 2.5px solid white;
+    border-radius: 8px;
+    color: white;
+  }
+  .button-projects:hover a {
+    color: white;
+  }
+
   .info-field {
     background-color: black;
     color: white;
