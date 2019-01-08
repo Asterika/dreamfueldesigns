@@ -104,19 +104,47 @@
     width: 436px;
   }
   input {
-    border-color: lightgrey;
+    /* background-color: aliceblue; */
+    border-color: #bdd6f3;
+    box-shadow: 10px 10px 5px #bdd6f3;
     font-size: 1rem;
     height: 30px;
-    width: 450px;
+    /* width: 450px; */
+    width: 100%;
+  }
+  /* input:hover {
+    background-color: #e8f1fb;
+    border-color: #bdd6f3;
+  } */
+  input[type=text]:focus, textarea:focus {
+    border: 3px solid #555;
   }
   .input-name {
     margin-right: 12px;
     width: 213px;
   }
   textarea {
-    border: 2px inset #303030;
-    border-color: lightgrey;
-    max-width: auto;
+    /* background-color: aliceblue; */
+    /* border: 2px inset #303030; */
+    border: 2px inset #bdd6f3;
+    /* border-color: grey; */
+    box-shadow: 10px 10px 5px #bdd6f3;
+    box-sizing: border-box;
+    /* font-size: 0.8rem; */
+    padding: 10px 10px;
+    /* max-width: auto; */
+    resize: none;
+    width: 101%;
+  }
+  /* textarea:hover {
+    background-color: #e8f1fb;
+    border-color: #bdd6f3;
+  } */
+  legend {
+    /* color: #33A1C9; */
+    color: #06accb;
+    font-size: 1.4rem;
+    font-weight: bold;
   }
 
 /* IMAGES */
