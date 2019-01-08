@@ -4,7 +4,7 @@
   body {
     background: ghostwhite;
     font-family: 'Raleway', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     /* overflow-y: scroll; */
     text-align: center;
   }
@@ -29,6 +29,9 @@
   } */
   hr {
     width: 2%;
+  }
+  .hr-large {
+    width: 12%;
   }
 
 
@@ -174,7 +177,11 @@
 /* STEP 5 - add nav + link properties */
 /* LINKS & NAV */
   a {
-    color: #303030;
+    /* original grey: */
+    /* color: #303030; */
+    /* color: #12a6e6; */
+    color: #1198d3;
+    font-weight: bold;
     text-decoration: none;
   }
   li {
@@ -204,11 +211,15 @@
   }
   /* this turns the links light grey when the active is hovered over */
   ul:hover li a {
-    color: 	#c0c0c0;
+    /* color: 	#c0c0c0; */
+    /* color: #9edcf7; */
+    color: #bdd6f3;
   }
   /* this keeps the link darker grey as the others fade */
   ul li a:hover {
-    color: #333;
+    /* color: #333; */
+    /* color: #12a6e6; */
+    color: #1198d3;
   }
 
 /* FORMS */
@@ -219,13 +230,21 @@
 .logo {
   height: 100px;
   margin: 15px;
-  padding: 2px;
+  /* padding: 2px; */
   width: 220px;
   border: 1.2px solid #303030;
   border-radius: 2%;
   /* height: 250px;
   width: 250px; */
   /* border-radius: 20%; */
+}
+/* logo hover inspired by this css reset code snippet: https://cssreset.com/image-hover-effects-adding-box-shadow/ */
+.logo:hover{
+ -moz-box-shadow: 10px 10px 40px #999999;
+ -webkit-box-shadow: 10px 10px 40px #999999;
+ box-shadow: 10px 10px 40px #999999;
+ -webkit-transition: all .2s ease;
+transition: all .2s ease;
 }
 .logo-small {
   border: 1px solid grey;
