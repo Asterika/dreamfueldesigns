@@ -47,6 +47,9 @@
     font-weight: bold;
     letter-spacing: 0.17rem;
     height: 60px;
+    /* two options to try:
+    outline: none;
+    outline: transparent; */
     width: 120px;
   }
   .button-connect:hover {
