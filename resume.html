@@ -9,37 +9,29 @@
       body {
         background-color: ghostwhite;
       }
-      .return-button {
-        background: url("images/return_button.png") no-repeat;
-        display: inline-block;
+      .change-on-hover {
+        position: relative;
+        margin: 0 auto;
+        max-width: 120px;
       }
-
-      .return-button:hover {
-        background: url("images/return_button_hover.png") no-repeat;
-      }
-      /* .button-return {
-        border: 2.5px solid #3aa8c1;
-        border-radius: 4px;
-        color: #3aa8c1; */
-        /* font-family: 'Shadows Into Light', cursive; */
-        /* font-size: 2.5rem;
-        font-weight: bold;
-        height: 45px;
-        letter-spacing: 0.17rem;
-        width: 150px;
-      }
-      .button-return a {
-        color: #3AA8C1;
-      }
-      .button-return:hover {
-        background-color: #3AA8C1;
-        border: 2.5px solid white;
+      .change-on-hover img {
         border-radius: 8px;
-        color: white;
+        position: absolute;
+        top:0;
+        left:0;
+        overflow:hidden;
+        width: 120px;
+        height: 65px;
       }
-      .button-return:hover a {
-        color: white;
-      } */
+      .change-on-hover .change-on-hover__front-image {
+        z-index: 9999;
+        transition: opacity 0.02s linear;
+        cursor: pointer;
+      }
+      .change-on-hover:hover > .change-on-hover__front-image {
+        border-radius: 12px;
+        opacity: 0;
+      }
     </style>
   </head>
   <body>
@@ -47,26 +39,13 @@
     <img src="images/CareerSummary_KrystalWilliams.jpg" style="vertical-align: middle; border: 1.5px solid lightgrey; border-bottom:none;" alt="Krystal Williams' Web Developer Resume"><br >
     <img src="images/ProjectSummary_KrystalWilliams.jpg" style="border:1.5px solid lightgrey; border-top:none;" alt="Krystal Williams' Web Developer Project Summary">
   </p><br >
-  <div class="return-button"></div>
-  <!-- <img src="images/return_button.png" mouseover="this.src='images/return_button_hover.png'" style="display:block; height:65px; margin:auto; width:120px;"><a href="/about"></a> -->
 
+  <!-- Code included here courtesy Creative Programmer at https://codepen.io/creativeprogrammer/pen/RpBpgm -->
+  <figure class="change-on-hover">
+    <img class="change-on-hover__front-image" src="images/return_button.png" />
+    <img class="change-on-hover__back-image" src="images/return_button_hover.png" />
+    <a href="/about"></a>
+  </figure>
 
-    <!-- id="imgToChange" onclick="changeImage()"> -->
-
-
-  <!-- <script language="javascript">
-    function changeImage() {
-      if (document.getElementById("imgToChange").src == "images/return_button.png") {
-        document.getElementById("imgToChange").src = "images/return_button_hover.png";
-      } else {
-        document.getElementById("imgToChange").src = "images/return_button.png";
-      }
-    }
-  </script> -->
-
-
-  <!-- <div>
-    <a href="/about"><button style="margin:auto; display:block; border:2.5px solid #3aa8c1; border-radius:4px; color:#3aa8c1; font-size: 2rem; font-weight: bold; height:45px; letter-spacing:0.17em; width:150px; font-family: 'Shadows Into Light', cursive; " class="button-return">Return</button></a>
-  </div> -->
   </body>
 </html>
