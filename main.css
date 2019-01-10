@@ -62,15 +62,24 @@
 
 
   .button-resume {
-    border: 2.5px solid #2e37fe;
-    color: #2e37fe;
+    /* border: 2.5px solid #6e8fd2; */
+    /* dark: */
+    /* border: 2.5px solid #2e37fe; */
+    /* color: #6e8fd2; */
+    /* color: #2e37fe; */
+    border: 2.5px solid #4f86f7;
+    color: #4f86f7;
     font-size: 1.75rem;
   }
   .button-resume a {
-    color: #2e37fe;
+    /* color: #2e37fe; */
+    /* color: #6e8fd2; */
+    color: #4f86f7;
   }
   .button-resume:hover {
-    background-color: #2e37fe;
+    /* background-color: #2e37fe; */
+    /* background-color: #6e8fd2; */
+    background-color: #4f86f7;
     border: 2.5px solid white;
     border-radius: 8px;
     color: white;
