@@ -30,6 +30,9 @@
   .hr-large {
     width: 12%;
   }
+  .center {
+    text-align: center;
+  }
 
 
 /* BUTTONS */
@@ -173,7 +176,11 @@
   position: relative;
   text-align: center;
 }
-
+.img-resume {
+  border: 1.5px solid lightgrey;
+  border-bottom: none;
+  vertical-align: middle;
+}
 /* WELCOME PAGE */
 .welcome-text {
   position: absolute;
