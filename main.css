@@ -142,6 +142,11 @@
     height: 30px;
     width: 100%;
   }
+  .input-techbuttons {
+    text-align:center;
+    font-family: 'Raleway', cursive;
+    font-size: 1.2rem;
+  }
   input[type=text]:focus, textarea:focus {
     border: 3px solid #555;
   }
@@ -209,10 +214,18 @@
     font-weight: bold;
     text-decoration: none;
   }
+  .a-codelinks {
+    color:blue;
+    font-size:1.3rem;
+    font-weight:bold;
+  }
   .a-mainpage {
     color: #0000ee;
   }
   .hover-text:hover {
+    color: blue;
+    font-size: 1.3rem;
+    font-weight: bold;
     text-shadow: 1.5px 1.5px 3px #00688B;
   }
   li {
@@ -327,6 +340,9 @@ width: 100%;
 }
 .mt-2.5 {
   margin-top: 2.5%;
+}
+.mb-1 {
+  margin-bottom: -1%;
 }
 .mb-2 {
   margin-bottom: -2%;
