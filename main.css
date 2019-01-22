@@ -209,6 +209,9 @@
     font-weight: bold;
     text-decoration: none;
   }
+  .a-mainpage {
+    color: #0000ee;
+  }
   .hover-text:hover {
     text-shadow: 1.5px 1.5px 3px #00688B;
   }
@@ -303,6 +306,9 @@ height: 80vh;
 }
 .h100 {
 height: 100%;
+}
+.h650 {
+  height: 560px;
 }
 .w80 {
 width: 80%;
