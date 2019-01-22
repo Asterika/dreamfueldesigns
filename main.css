@@ -301,6 +301,7 @@ transition: all .2s ease;
 }
 
 /* SIZES */
+/* height */
 .h80 {
 height: 80vh;
 }
@@ -310,6 +311,7 @@ height: 100%;
 .h650 {
   height: 560px;
 }
+/* width */
 .w80 {
 width: 80%;
 }
@@ -319,6 +321,7 @@ width: 95%;
 .w100 {
 width: 100%;
 }
+/* margin */
 .m-5 {
   margin: -5%;
 }
@@ -327,6 +330,10 @@ width: 100%;
 }
 .mb-2 {
   margin-bottom: -2%;
+}
+/* font */
+.f2 {
+  font-size: 2rem;
 }
 
 /* STEP 6 - add media query for mobile responsiveness */
