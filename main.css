@@ -355,6 +355,11 @@ width: 100%;
   margin-bottom: -2%;
 }
 /* font */
+.f16 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.6rem;
+  letter-spacing: 0.08rem;
+}
 .f2 {
   font-size: 2rem;
 }
