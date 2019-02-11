@@ -8,6 +8,12 @@
     /* overflow-y: scroll; */
     text-align: center;
   }
+  .border1 {
+    border: 1px solid navy;
+  }
+  .center {
+    text-align: center;
+  }
   .container {
     display: flex;
     justify-content: center;
@@ -30,8 +36,10 @@
   .hr-large {
     width: 12%;
   }
-  .center {
-    text-align: center;
+  .none {
+    list-style-type: none;
+    outline: transparent;
+    text-decoration: none;
   }
 
 
@@ -113,7 +121,8 @@
   }
 
   .button-return {
-    border-color: #3aa8c1;
+    border: none;
+    /* border-color: #3aa8c1; */
     color: #3aa8c1;
   }
   .button-return a {
@@ -177,8 +186,7 @@
   text-align: center;
 }
 .img-resume {
-  border: 1.5px solid lightgrey;
-  border-bottom: none;
+  border: 2.8px solid steelblue;
   vertical-align: middle;
 }
 /* WELCOME PAGE */
