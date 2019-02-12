@@ -121,9 +121,14 @@
   }
 
   .button-return {
-    border: none;
-    /* border-color: #3aa8c1; */
+    /* border: none; */
+    border-color: #3aa8c1;
     color: #3aa8c1;
+  }
+  .button-return-resume {
+    height: 65px;
+    border: transparent;
+    width: 120px;
   }
   .button-return a {
     color: #3aa8c1;
