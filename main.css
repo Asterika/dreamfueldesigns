@@ -11,6 +11,9 @@
   .border1 {
     border: 1px solid navy;
   }
+  .border-gray {
+    border: 1px solid gray;
+  }
   .center {
     text-align: center;
   }
@@ -159,7 +162,7 @@
     width: 100%;
   }
   .input-techbuttons {
-    text-align:center;
+    text-align: center;
     font-family: 'Raleway', cursive;
     font-size: 1.2rem;
   }
@@ -362,6 +365,9 @@ width: 100%;
 }
 .mt-2.5 {
   margin-top: 2.5%;
+}
+.mt-5 {
+  margin-top: -5%;
 }
 .mb-1 {
   margin-bottom: -1%;
