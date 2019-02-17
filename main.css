@@ -194,7 +194,9 @@
 }
 .img-resume {
   border: 2.8px solid steelblue;
+  height: 56%;
   vertical-align: middle;
+  width: 56%;
 }
 /* WELCOME PAGE */
 .welcome-text {
