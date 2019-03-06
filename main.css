@@ -328,12 +328,16 @@ transition: all .2s ease;
   flex-wrap: wrap;
   padding: 0 4px;
 }
-.screenshot {
+.screenshot, .screenshot-small {
   border: 1px solid #303030;
   border-radius: 4px;
   height: 350px;
   max-width: 500px;
   width:100%;
+}
+.screenshot-small {
+  height: 300px;
+  width: 300px;
 }
 .screenshot:hover {
   -moz-box-shadow: 20px 20px 100px #999999;
