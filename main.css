@@ -293,15 +293,19 @@
   }
 
 /* GALLERY */
-.logo {
+.logo, .logo-square {
   height: 100px;
   margin: 15px;
   width: 220px;
   border: 1.2px solid #303030;
   border-radius: 2%;
 }
+.logo-square {
+  height: 200px;
+  width: 200px;
+}
 /* logo hover inspired by this css reset code snippet: https://cssreset.com/image-hover-effects-adding-box-shadow/ */
-.logo:hover, .screenshot:hover {
+.logo:hover, .screenshot:hover, .logo-square:hover {
  -moz-box-shadow: 5px 5px 30px #999999;
  -webkit-box-shadow: 5px 5px 30px #999999;
  box-shadow: 5px 5px 30px #999999;
