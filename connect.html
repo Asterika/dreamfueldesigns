@@ -1,35 +1,52 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <meta name="referrer" content="origin">
+    <meta charset="utf-8" />
+    <meta name="referrer" content="origin" />
     <title>Connect</title>
-    <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="stylesheet" href="main.css" type="text/css" />
   </head>
   <body>
+    <div id="topbar"></div>
     <nav class="w100">
       <ul>
-        <li class="nav-li"><a href="/"><i>dream fuel designs</i></a></li>
+        <li class="nav-li">
+          <a href="/"><i>dream fuel designs</i></a>
+        </li>
         <li><a href="/projects">Projects</a></li>
         <li><a href="/about">About</a></li>
         <li><a href="#">Connect</a></li>
       </ul>
     </nav>
-    <h1 class="mt-2.5 mb-2">Let's Connect&#160;<a href="https://www.linkedin.com/in/krystal-m-williams/" alt="LinkedIn Icon Hyperlink to Krystal Williams' LinkedIn" target="_blank"><img src="images/linkedin_logo.png" class="logo-linkedin"></a></h1>
-    <p>Krystal Williams<br >
-      Greater Seattle Area, Washington</p>
+    <h1 class="mt-2.5 mb-2">
+      Let's Connect&#160;<a
+        href="https://www.linkedin.com/in/krystal-m-williams/"
+        alt="LinkedIn Icon Hyperlink to Krystal Williams' LinkedIn"
+        target="_blank"
+        ><img src="images/linkedin_logo.png" class="logo-linkedin"
+      /></a>
+    </h1>
+    <p>
+      Krystal Williams<br />
+      Greater Seattle Area, Washington
+    </p>
     <div class="container">
-      <form method="POST" action="https://formspree.io/dreamfueldesigns@gmail.com">
+      <form
+        method="POST"
+        action="https://formspree.io/dreamfueldesigns@gmail.com"
+      >
         <legend>Name</legend>
-          <input type="text"><br ><br >
+        <input type="text" /><br /><br />
         <legend>Email</legend>
-          <input type="email"><br ><br >
+        <input type="email" /><br /><br />
         <legend>Subject</legend>
-          <input type="text"><br ><br >
+        <input type="text" /><br /><br />
         <legend>Message</legend>
 
-        <textarea name="message" rows="8" cols="80"></textarea><br ><br >
-        <button id="redirectButton" type="submit" class="button-connect">Connect</button>
+        <textarea name="message" rows="8" cols="80"></textarea><br /><br />
+        <button id="redirectButton" type="submit" class="button-connect">
+          Connect
+        </button>
         <input type="hidden" name="_next" value="/thanks" />
       </form>
     </div>
