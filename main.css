@@ -1,191 +1,194 @@
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light|IM+Fell+Great+Primer:400i|Raleway:300');
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light|IM+Fell+Great+Primer:400i|Raleway:300");
 
 /* GENERAL STYLES */
-  body {
-    background: ghostwhite;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.1rem;
-    /* overflow-y: scroll; */
-    text-align: center;
-  }
-  .border1 {
-    border: 1px solid navy;
-  }
-  .border-gray {
-    border: 1px solid gray;
-  }
-  .center {
-    text-align: center;
-  }
-  .container {
-    display: flex;
-    justify-content: center;
-    margin-top: 2%;
-    text-align: left;
-  }
-  h1, h3 {
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 3rem;
-    margin-bottom: 2%;
-    text-align: center;
-  }
-  /* h3 {
+body {
+  background: ghostwhite;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.1rem;
+  /* overflow-y: scroll; */
+  text-align: center;
+}
+.border1 {
+  border: 1px solid navy;
+}
+.border-gray {
+  border: 1px solid gray;
+}
+.center {
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  text-align: left;
+}
+h1,
+h3 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 3rem;
+  margin-bottom: 2%;
+  text-align: center;
+}
+/* h3 {
     font-size: 1.8rem;
     margin-bottom: 0%;
   } */
-  hr {
-    width: 2%;
-  }
-  .hr-large {
-    width: 12%;
-  }
-  .none {
-    list-style-type: none;
-    outline: transparent;
-    text-decoration: none;
-  }
-
+hr {
+  width: 2%;
+}
+.hr-large {
+  width: 12%;
+}
+.none {
+  list-style-type: none;
+  outline: transparent;
+  text-decoration: none;
+}
 
 /* BUTTONS */
-  .button-connect, .button-resume, .button-projects, .button-return {
-    border: 2.5px solid #3277b3;
-    background-color: ghostwhite;
-    border-radius: 5px;
-    color: #3277b3;
-    cursor: pointer;
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 1.65rem;
-    font-weight: bold;
-    letter-spacing: 0.17rem;
-    height: 60px;
-    /* two options to try:
+.button-connect,
+.button-resume,
+.button-projects,
+.button-return {
+  border: 2.5px solid #3277b3;
+  background-color: ghostwhite;
+  border-radius: 5px;
+  color: #3277b3;
+  cursor: pointer;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1.65rem;
+  font-weight: bold;
+  letter-spacing: 0.17rem;
+  height: 60px;
+  /* two options to try:
     outline: none;
     outline: transparent; */
-    width: 120px;
-  }
-  .button-connect:hover {
-    background-color: #3277b3;
-    border-color: white;
-    border-radius: 8px;
-    color: white;
-  }
+  width: 120px;
+}
+.button-connect:hover {
+  background-color: #3277b3;
+  border-color: white;
+  border-radius: 8px;
+  color: white;
+}
 
-  .button-resume {
-    border-color: #4f86f7;
-    color: #4f86f7;
-    font-size: 1.75rem;
-  }
-  .button-resume a {
-    color: #4f86f7;
-  }
-  .button-resume:hover {
-    background-color: #4f86f7;
-    border-color: white;
-    border-radius: 8px;
-    color: white;
-  }
-  .button-resume:hover a {
-    color: white;
-  }
+.button-resume {
+  border-color: #4f86f7;
+  color: #4f86f7;
+  font-size: 1.75rem;
+}
+.button-resume a {
+  color: #4f86f7;
+}
+.button-resume:hover {
+  background-color: #4f86f7;
+  border-color: white;
+  border-radius: 8px;
+  color: white;
+}
+.button-resume:hover a {
+  color: white;
+}
 
+.button-projects {
+  border-color: #00a0c3;
+  color: #00a0c3;
+}
+.button-projects a {
+  color: #00a0c3;
+}
+.button-projects:hover {
+  background-color: #00a0c3;
+  border-color: white;
+  border-radius: 8px;
+  color: white;
+}
+.button-projects:hover a {
+  color: white;
+}
 
-  .button-projects {
-    border-color: #00a0c3;
-    color: #00a0c3;
-  }
-  .button-projects a {
-    color: #00a0c3;
-  }
-  .button-projects:hover {
-    background-color: #00a0c3;
-    border-color: white;
-    border-radius: 8px;
-    color: white;
-  }
-  .button-projects:hover a {
-    color: white;
-  }
+.button-projects1 {
+  border-color: #00a0c3;
+  color: #00a0c3;
+}
+.button-projects1 a {
+  color: #00a0c3;
+}
+.button-projects1:hover {
+  background-color: #00a0c3;
+  border-color: white;
+  border-radius: 8px;
+  color: white;
+}
+.button-projects1:hover a {
+  color: white;
+}
 
-  .button-projects1 {
-    border-color: #00a0c3;
-    color: #00a0c3;
-  }
-  .button-projects1 a {
-    color: #00a0c3;
-  }
-  .button-projects1:hover {
-    background-color: #00a0c3;
-    border-color: white;
-    border-radius: 8px;
-    color: white;
-  }
-  .button-projects1:hover a {
-    color: white;
-  }
+.button-return {
+  border-color: #3aa8c1;
+  color: #3aa8c1;
+}
+.button-return-resume {
+  height: 65px;
+  border: transparent;
+  width: 120px;
+}
+.button-return a {
+  color: #3aa8c1;
+}
+.button-return:hover {
+  background-color: #3aa8c1;
+  border-color: white;
+  border-radius: 8px;
+  color: white;
+}
+.button-return:hover a {
+  color: white;
+}
 
-  .button-return {
-    border-color: #3aa8c1;
-    color: #3aa8c1;
-  }
-  .button-return-resume {
-    height: 65px;
-    border: transparent;
-    width: 120px;
-  }
-  .button-return a {
-    color: #3aa8c1;
-  }
-  .button-return:hover {
-    background-color: #3aa8c1;
-    border-color: white;
-    border-radius: 8px;
-    color: white;
-  }
-  .button-return:hover a {
-    color: white;
-  }
-
-  /* FIELDS AND FORMS */
-  .info-field {
-    background-color: black;
-    color: white;
-    border: 1px solid #303030;
-    border-radius: 20px;
-    font-weight: bold;
-    width: 436px;
-  }
-  input {
-    border-color: #bdd6f3;
-    box-shadow: 10px 10px 5px #bdd6f3;
-    font-size: 1rem;
-    height: 30px;
-    width: 100%;
-  }
-  .input-techbuttons {
-    text-align: center;
-    font-family: 'Raleway', cursive;
-    font-size: 1.2rem;
-  }
-  input[type=text]:focus, textarea:focus {
-    border: 3px solid #555;
-  }
-  .input-name {
-    margin-right: 12px;
-    width: 213px;
-  }
-  textarea {
-    border: 2px inset #bdd6f3;
-    box-shadow: 10px 10px 5px #bdd6f3;
-    box-sizing: border-box;
-    padding: 10px 10px;
-    resize: none;
-    width: 101%;
-  }
-  legend {
-    color: #06accb;
-    font-size: 1.4rem;
-    font-weight: bold;
-  }
+/* FIELDS AND FORMS */
+.info-field {
+  background-color: black;
+  color: white;
+  border: 1px solid #303030;
+  border-radius: 20px;
+  font-weight: bold;
+  width: 436px;
+}
+input {
+  border-color: #bdd6f3;
+  box-shadow: 10px 10px 5px #bdd6f3;
+  font-size: 1rem;
+  height: 30px;
+  width: 100%;
+}
+.input-techbuttons {
+  text-align: center;
+  font-family: "Raleway", cursive;
+  font-size: 1.2rem;
+}
+input[type="text"]:focus,
+textarea:focus {
+  border: 3px solid #555;
+}
+.input-name {
+  margin-right: 12px;
+  width: 213px;
+}
+textarea {
+  border: 2px inset #bdd6f3;
+  box-shadow: 10px 10px 5px #bdd6f3;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  resize: none;
+  width: 101%;
+}
+legend {
+  color: #06accb;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
 
 /* IMAGES */
 .img-container {
@@ -231,69 +234,69 @@
   top: 12.5%;
 }
 
-/* STEP 5 - add nav + link properties */
 /* LINKS & NAV */
-  a {
-    color: #02a4d3;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  .a-codelinks {
-    color:blue;
-    font-size:1.3rem;
-    font-weight:bold;
-  }
-  .a-mainpage {
-    color: #0000ee;
-  }
-  .hover-text:hover {
-    color: blue;
-    font-size: 1.3rem;
-    font-weight: bold;
-    text-shadow: 1.5px 1.5px 3px #00688B;
-  }
-  li {
-    display: inline;
-    font-size: 1.2rem;
-    /* do not use percentages! */
-    padding: 0 20px;
-  }
-  .li-logo {
-    font-family:'IM Fell Great Primer', serif;
-    font-size: 32px;
-    margin-top: -0.5%;
-  }
-  .anchor-logo {
-    margin-top: -5%;
-  }
-  .nav-li {
-    font-family:'Shadows Into Light', cursive;
-    font-size: 32px;
-    letter-spacing: 0.08em;
-    margin-top: -0.5%;
-  }
-  nav ul {
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    margin: 4.5% 2.2%;
-    margin-bottom: 1.5%;
-    padding: 0;
-  }
-  nav ul li:first-child {
-    margin-right: auto;
-  }
-  /* this turns the links light blue when the active is hovered over */
-  ul:hover li a {
-    color: #bdd6f3;
-  }
-  /* this keeps the link darker blue as the others fade */
-  ul li a:hover {
-    color: #02A4D3;
-  }
+a {
+  color: #02a4d3;
+  font-weight: bold;
+  text-decoration: none;
+}
+.a-codelinks {
+  color: blue;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.a-mainpage {
+  color: #0000ee;
+}
+.hover-text:hover {
+  color: blue;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-shadow: 1.5px 1.5px 3px #00688b;
+}
+li {
+  display: inline;
+  font-size: 1.2rem;
+  /* do not use percentages! */
+  padding: 0 20px;
+}
+.li-logo {
+  font-family: "IM Fell Great Primer", serif;
+  font-size: 32px;
+  margin-top: -0.5%;
+}
+.anchor-logo {
+  margin-top: -5%;
+}
+.nav-li {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 32px;
+  letter-spacing: 0.08em;
+  margin-top: -0.5%;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 4.5% 2.2%;
+  margin-bottom: 1.5%;
+  padding: 0;
+}
+nav ul li:first-child {
+  margin-right: auto;
+}
+/* this turns the links light blue when the active is hovered over */
+ul:hover li a {
+  color: #bdd6f3;
+}
+/* this keeps the link darker blue as the others fade */
+ul li a:hover {
+  color: #02a4d3;
+}
 
 /* GALLERY */
-.logo, .logo-square {
+.logo,
+.logo-square {
   height: 100px;
   margin: 15px;
   width: 220px;
@@ -305,12 +308,14 @@
   width: 200px;
 }
 /* logo hover inspired by this css reset code snippet: https://cssreset.com/image-hover-effects-adding-box-shadow/ */
-.logo:hover, .screenshot:hover, .logo-square:hover {
- -moz-box-shadow: 5px 5px 30px #999999;
- -webkit-box-shadow: 5px 5px 30px #999999;
- box-shadow: 5px 5px 30px #999999;
- -webkit-transition: all .2s ease;
-transition: all .2s ease;
+.logo:hover,
+.screenshot:hover,
+.logo-square:hover {
+  -moz-box-shadow: 5px 5px 30px #999999;
+  -webkit-box-shadow: 5px 5px 30px #999999;
+  box-shadow: 5px 5px 30px #999999;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 .logo-small {
   border: 1px solid grey;
@@ -328,12 +333,13 @@ transition: all .2s ease;
   flex-wrap: wrap;
   padding: 0 4px;
 }
-.screenshot, .screenshot-small {
+.screenshot,
+.screenshot-small {
   border: 1px solid #303030;
   border-radius: 4px;
   height: 350px;
   max-width: 500px;
-  width:100%;
+  width: 100%;
 }
 .screenshot-small {
   height: 300px;
@@ -345,13 +351,21 @@ transition: all .2s ease;
   box-shadow: 20px 20px 100px #999999;
 }
 
+/* TOPBAR */
+#topbar {
+  background-color: #02a4d3;
+  height: 1vh;
+  margin-top: -0.5%;
+  width: 100vw;
+}
+
 /* SIZES */
 /* height */
 .h80 {
-height: 80vh;
+  height: 80vh;
 }
 .h100 {
-height: 100%;
+  height: 100%;
 }
 .h620 {
   height: 620px;
@@ -361,13 +375,13 @@ height: 100%;
 }
 /* width */
 .w80 {
-width: 80%;
+  width: 80%;
 }
 .w95 {
-width: 95%;
+  width: 95%;
 }
 .w100 {
-width: 100%;
+  width: 100%;
 }
 /* margin */
 .m-5 {
@@ -387,7 +401,7 @@ width: 100%;
 }
 /* font */
 .f16 {
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light", cursive;
   font-size: 1.6rem;
   letter-spacing: 0.08rem;
 }
@@ -397,59 +411,67 @@ width: 100%;
 
 /* STEP 6 - add media query for mobile responsiveness */
 /* MEDIA QUERIES */
-@media only screen
-  and (min-width:350px)
-  and (max-width:667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .info-field {
-      border: 1px solid #303030;
-      border-radius: 20px;
-      max-width: 380px;
-    }
-    ul {
-      align-items: flex-end;
-      flex-direction: column;
-    }
-
-    /* Code Credit: The following block of input code is courtesy Alex Gibson, https://www.webdesignerdepot.com/2013/03/how-to-make-your-contact-forms-mobile-friendly/ */
-    input[type=text], input[type=url], input[type=email], input[type=password], input[type=tel] {
-      -webkit-appearance: none; -moz-appearance: none;
-      display: block;
-      margin: 0;
-      width: 100%; height: 40px;
-      line-height: 40px; font-size: 17px;
-      border: 1px solid #bbb;
-    }
-    form {
-      align-items: center;
-      width: 100%;
-    }
-    textarea {
-      width: 99%;
-    }
-    h1, h3 {
-      font-size: 2.4rem;
-    }
-    .welcome-text {
-      position: absolute;
-      top: -4%;
-      left: 6%;
-    }
-    .welcome-icon {
-      height: 220px;
-      position: absolute;
-      top: 87%;
-      left: 25%;
-      width: 220px;
-    }
-
-    .welcome-icon:hover {
-      background-color: blue;
-    }
-
-    .welcome-bubble-text {
-      position: absolute;
-      top: 88%;
-      left: 31%;
-    }
+@media only screen and (min-width: 350px) and (max-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .info-field {
+    border: 1px solid #303030;
+    border-radius: 20px;
+    max-width: 380px;
   }
+  ul {
+    align-items: flex-end;
+    flex-direction: column;
+  }
+
+  /* Code Credit: The following block of input code is courtesy Alex Gibson, https://www.webdesignerdepot.com/2013/03/how-to-make-your-contact-forms-mobile-friendly/ */
+  input[type="text"],
+  input[type="url"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 17px;
+    border: 1px solid #bbb;
+  }
+  form {
+    align-items: center;
+    width: 100%;
+  }
+  textarea {
+    width: 99%;
+  }
+  h1,
+  h3 {
+    font-size: 2.4rem;
+  }
+  #topbar {
+    margin-top: -1.7%;
+  }
+  .welcome-text {
+    position: absolute;
+    top: -4%;
+    left: 6%;
+  }
+  .welcome-icon {
+    height: 220px;
+    position: absolute;
+    top: 87%;
+    left: 25%;
+    width: 220px;
+  }
+
+  .welcome-icon:hover {
+    background-color: blue;
+  }
+
+  .welcome-bubble-text {
+    position: absolute;
+    top: 88%;
+    left: 31%;
+  }
+}
