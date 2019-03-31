@@ -66,6 +66,14 @@ hr {
     outline: transparent; */
   width: 120px;
 }
+.button-connect:hover,
+.button-resume:hover,
+.button-projects:hover,
+.button-return:hover {
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  transform: rotate(10deg);
+}
 .button-connect:hover {
   background-color: #3277b3;
   border-color: white;
@@ -323,9 +331,14 @@ ul li a:hover {
   padding: 40px;
   width: 200px;
 }
-.logo-linkedin {
+#logo-linkedin {
   height: 40px;
   width: 40px;
+}
+#logo-linkedin:hover {
+  -ms-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
 }
 .row {
   display: flex;
