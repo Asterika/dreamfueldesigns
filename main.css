@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light|IM+Fell+Great+Primer:400i|Raleway:300");
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light|IM+Fell+Great+Primer:400i|Raleway:300|Knewave");
 
 /* GENERAL STYLES */
 body {
@@ -24,11 +24,15 @@ body {
   text-align: left;
 }
 h1,
+h2,
 h3 {
   font-family: "Shadows Into Light", cursive;
   font-size: 3rem;
   margin-bottom: 2%;
   text-align: center;
+}
+h2 {
+  font-size: 2.2rem;
 }
 /* h3 {
     font-size: 1.8rem;
@@ -83,15 +87,17 @@ hr {
 }
 
 .button-resume {
-  border-color: #4f86f7;
-  color: #4f86f7;
-  font-size: 1.75rem;
+  border-color: blue;
+  color: blue;
+  transform: rotate(-12deg);
+  transform-origin: left bottom 0;
 }
-.button-resume a {
-  color: #4f86f7;
+.button-resume > a {
+  color: blue;
+  font-size: 1.74rem;
 }
 .button-resume:hover {
-  background-color: #4f86f7;
+  background-color: blue;
   border-color: white;
   border-radius: 8px;
   color: white;
