@@ -24,7 +24,6 @@ body {
   text-align: left;
 }
 h1,
-h2,
 h3 {
   font-family: "Shadows Into Light", cursive;
   font-size: 3rem;
@@ -32,6 +31,7 @@ h3 {
   text-align: center;
 }
 h2 {
+  font-family: "Shadows Into Light", cursive;
   font-size: 2.2rem;
 }
 /* h3 {
