@@ -34,6 +34,10 @@ h2 {
   font-family: "Shadows Into Light", cursive;
   font-size: 2.2rem;
 }
+.h2-plain {
+  font-family: "Raleway", cursive;
+  font-size: 1.5rem;
+}
 /* h3 {
     font-size: 1.8rem;
     margin-bottom: 0%;
@@ -52,8 +56,9 @@ hr {
 
 /* BUTTONS */
 .button-connect,
-.button-resume,
+.button-courses,
 .button-projects,
+.button-resume,
 .button-return {
   border: 2.5px solid #3277b3;
   background-color: ghostwhite;
@@ -71,6 +76,7 @@ hr {
   width: 120px;
 }
 .button-connect:hover,
+.button-courses:hover,
 .button-resume:hover,
 .button-projects:hover,
 .button-return:hover,
@@ -83,6 +89,20 @@ hr {
   background-color: #3277b3;
   border-color: white;
   border-radius: 8px;
+  color: white;
+}
+
+.button-courses {
+  transform: rotate(-12deg);
+  transform-origin: left bottom 0;
+}
+.button-courses:hover {
+  background-color: #3277b3;
+  border: 2.5px solid white;
+  border-radius: 5px;
+  color: white;
+}
+.button-courses:hover a {
   color: white;
 }
 
@@ -321,6 +341,10 @@ ul li a:hover {
 .logo-square {
   height: 200px;
   width: 200px;
+}
+.logo-course {
+  height: 45px;
+  width: 45px;
 }
 /* logo hover inspired by this css reset code snippet: https://cssreset.com/image-hover-effects-adding-box-shadow/ */
 .logo:hover,
