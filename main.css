@@ -99,7 +99,7 @@ hr {
 .button-courses:hover {
   background-color: #3277b3;
   border: 2.5px solid white;
-  border-radius: 5px;
+  border-radius: 8px;
   color: white;
 }
 .button-courses:hover a {
