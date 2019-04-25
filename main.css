@@ -38,10 +38,6 @@ h2 {
   font-family: "Raleway", cursive;
   font-size: 1.5rem;
 }
-/* h3 {
-    font-size: 1.8rem;
-    margin-bottom: 0%;
-  } */
 hr {
   width: 2%;
 }
@@ -70,9 +66,6 @@ hr {
   font-weight: bold;
   letter-spacing: 0.17rem;
   height: 60px;
-  /* two options to try:
-    outline: none;
-    outline: transparent; */
   width: 120px;
 }
 .button-connect:hover,
@@ -453,7 +446,6 @@ ul li a:hover {
   font-size: 2rem;
 }
 
-/* STEP 6 - add media query for mobile responsiveness */
 /* MEDIA QUERIES */
 @media only screen and (min-width: 350px) and (max-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   .info-field {
